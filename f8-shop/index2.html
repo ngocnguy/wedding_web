@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        F8-Shop
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        html {
+            font-size: 100%;
+        }
+        .box {
+            width: calc(80%);
+            height: 50vh;
+            background-color: rgb(231, 19, 142);
+        }
+        a::after{
+            content: "("attr(href)")";
+        }
+        .box::after{
+            content: attr(data-title);
+        }
+        h1{
+            font-size: 1em;
+        }
+        /*vw, vh*/
+    </style>
+</head>
+<!-- chu thich-->
+
+<body>
+    <div class = "box" data-title = "Day la box mau hong!"></div>
+
+    <a href="https://fullstack.edu.vn/learning/html-css?id=42c80120-573a-45a5-9c10-4c3ffbeb49dd">
+        Hoc lap trinh</a>
+        <div>
+            <h1>CSS Variable?</h1>
+            <h2></h2>
+            <h3></h3>
+        </div>
+    
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

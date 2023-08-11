@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        F8-Shop
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        html {
+            font-size: 100%;
+        }
+        .box {
+            width: calc(80%);
+            height: 50vh;
+            background-color: rgb(231, 19, 142);
+        }   
+        /*vw, vh*/
+        box:active{
+            color: green;
+        }
+        li:first-child{
+            color:aliceblue;
+        }
+        li:last-child{
+            color: green;
+        }
+        h1:hover{
+            color: red;
+        }
+        
+        h1::first-letter{
+            font-size: 50px;
+        }
+
+        h1::first-line{
+            font-size: 60px;
+            color:red;
+        }
+
+        h1::selection{
+            background-color: violet;
+            color: #fff;
+        }
+        .box::before{
+            content: "Xin chao";
+            color: red;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+
+        }
+
+        .box::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+
+        }
+    </style>
+</head>
+<!-- chu thich-->
+
+<body>
+    <div class = "box" ></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    <h1>CSS pseudo-classes<br/> dong thu 2 </h1>
+    <!-- lop gia -->
+    
+        <ul>
+            <li>:root</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
